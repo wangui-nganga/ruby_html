@@ -1,0 +1,13 @@
+h2{
+color: #171617;
+    text-align: center;
+}
+th,td{
+    border:2px solid red ;
+    padding: 10px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font-family:"Arial Rounded MT Bold" ;
+}

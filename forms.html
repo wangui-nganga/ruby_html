@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Forms</title>
+</head>
+<body>
+
+<h2>Student Registration Form</h2>
+
+<form action=""method="post">
+    <label for="fname">First Name:</label>
+    <input type="text" id="fname" name="fname" placeholder="Enter your First name " required><br><br>
+    <label for="lname">Last Name:</label>
+    <input type="text" id="lname" name="lname"><br><br>
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email"><br><br>
+    <label for="dob">Date of Birth</label>
+    <input type="date" id="dob" name="dob"><br><br>
+    <label for="female">Female</label>
+    <input type="radio" id="female" name="gender">
+    <label for="male">Male</label>
+    <input type="radio" id="male" name="gender"><br><br>
+
+    <label for="course">Courses</label>
+    <select name="courses" id="course">
+    <option value="react">React Js</option>
+    <option value="ds">Datascience</option>
+    <option value="ml">Machine Language</option>
+    <option value="ai">Artificial Intelligence</option>
+    <option value="dja">Django</option>
+    <option value="spr">SpringBoot</option>
+    <option value="others">Others</option>
+<!--        <input type="text" id="others"name="others">-->
+
+</select><br><br>
+    <label for="pass">Password</label>
+    <input type="password" id="pass"name="pass" required><br><br>
+
+
+
+
+
+
+    <input type="submit" value="Register Here!">
+
+
+</form>
+
+</body>
+</html>
